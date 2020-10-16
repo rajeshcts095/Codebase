@@ -45,7 +45,7 @@
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AmazonSeq" sap:VirtualizedContainerService.HintSize="242,205" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AmazonSeq" sap:VirtualizedContainerService.HintSize="242,267" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:Browser" Name="amazonBrowser" />
     </Sequence.Variables>
@@ -116,5 +116,6 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
+    <ui:SetClippingRegion Element="{x:Null}" Region="{x:Null}" Size="{x:Null}" Direction="LEFT" DisplayName="Set Clipping Region" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="SetClippingRegion_2" />
   </Sequence>
 </Activity>
